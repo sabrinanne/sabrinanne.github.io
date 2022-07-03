@@ -59,6 +59,31 @@ h1 {
     border-right: 2px solid #E5E5E5;
 }
 
+@media (max-width:960px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .card:not(:last-child) {
+        border-right: 0;
+    }
+
+    .banner-text {
+        margin: 2rem;
+    }
+
+    .shop-button {
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width:600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
 .card > div > p {
     margin: 0;
     padding: 0;
@@ -91,4 +116,8 @@ h1 {
 
 .card-arrow {
     font-size: 30px;
+}
+
+u {
+    color: #000;
 }
